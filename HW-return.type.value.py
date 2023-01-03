@@ -15,7 +15,7 @@ def inputFloat( message ):
 
 def inputBoolean( message ):
     print(message, end= "")
-    return input()
+    return bool (input())
 
 n = inputInt("Enter the first integer: ")
 m = inputInt("Enter the second integer: ")
