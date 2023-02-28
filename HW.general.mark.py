@@ -31,5 +31,7 @@ generalMark(general)  /
               |
               V
          marks["average"] = average_mark
-
+              ^
+              |
+               -------------write - 8.66
 '''
